@@ -9,7 +9,7 @@ import getpass
 
 email = input("Enter your account email: ")
 password = getpass.getpass("Enter your account password: ")
-no_of_profiles = input("Enter how many LinkedIn profiles you wish to view")
+no_of_profiles = int(input("Enter how many LinkedIn profiles you wish to view"))
 
 def scraper():
     # Scrape page
